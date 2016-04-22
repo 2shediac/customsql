@@ -1,0 +1,384 @@
+
+FILE: /home/derek/work/customsql/tests/report_test.php
+----------------------------------------------------------------------
+FOUND 33 ERRORS AFFECTING 18 LINES
+----------------------------------------------------------------------
+  31 | ERROR | [x] Array value not aligned correctly; expected 29
+     |       |     spaces but found 16
+  31 | ERROR | [x] Comma required after last value in array
+     |       |     declaration
+  31 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+  35 | ERROR | [x] Array value not aligned correctly; expected 29
+     |       |     spaces but found 16
+  35 | ERROR | [x] Comma required after last value in array
+     |       |     declaration
+  35 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+  39 | ERROR | [x] Array value not aligned correctly; expected 29
+     |       |     spaces but found 16
+  39 | ERROR | [x] Comma required after last value in array
+     |       |     declaration
+  39 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+  45 | ERROR | [x] Array value not aligned correctly; expected 29
+     |       |     spaces but found 16
+  45 | ERROR | [x] Comma required after last value in array
+     |       |     declaration
+  45 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+  49 | ERROR | [x] Array value not aligned correctly; expected 29
+     |       |     spaces but found 16
+  49 | ERROR | [x] Comma required after last value in array
+     |       |     declaration
+  49 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+  53 | ERROR | [x] Array value not aligned correctly; expected 29
+     |       |     spaces but found 16
+  53 | ERROR | [x] Comma required after last value in array
+     |       |     declaration
+  53 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+  76 | ERROR | [x] Array key not aligned correctly; expected 23
+     |       |     spaces but found 16
+  77 | ERROR | [x] Array key not aligned correctly; expected 23
+     |       |     spaces but found 16
+  78 | ERROR | [x] Array key not aligned correctly; expected 23
+     |       |     spaces but found 16
+  78 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+  84 | ERROR | [x] The first index in a multi-value array must be on
+     |       |     a new line
+  85 | ERROR | [x] Array key not aligned correctly; expected 20
+     |       |     spaces but found 25
+  86 | ERROR | [x] Array key not aligned correctly; expected 20
+     |       |     spaces but found 25
+  87 | ERROR | [x] Array key not aligned correctly; expected 20
+     |       |     spaces but found 25
+  87 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+  95 | ERROR | [ ] Variable "$h" not allowed in double quoted string;
+     |       |     use concatenation instead
+  96 | ERROR | [ ] Variable "$hour" not allowed in double quoted
+     |       |     string; use concatenation instead
+ 102 | ERROR | [x] The first index in a multi-value array must be on
+     |       |     a new line
+ 103 | ERROR | [x] Array key not aligned correctly; expected 20
+     |       |     spaces but found 16
+ 103 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+ 108 | ERROR | [x] Array with multiple values cannot be declared on a
+     |       |     single line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 31 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/delete.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 65 | ERROR | [x] Array with multiple values cannot be declared on a
+    |       |     single line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/classes/event/query_viewed.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 47 | ERROR | [ ] Variable "$this" not allowed in double quoted
+    |       |     string; use concatenation instead
+ 47 | ERROR | [ ] Variable "$this" not allowed in double quoted
+    |       |     string; use concatenation instead
+ 56 | ERROR | [x] Array with multiple values cannot be declared on a
+    |       |     single line
+ 56 | ERROR | [x] String "report_customsql" does not require double
+    |       |     quotes; use single quotes instead
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/classes/event/query_deleted.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 47 | ERROR | [ ] Variable "$this" not allowed in double quoted
+    |       |     string; use concatenation instead
+ 47 | ERROR | [ ] Variable "$this" not allowed in double quoted
+    |       |     string; use concatenation instead
+ 56 | ERROR | [x] Array with multiple values cannot be declared on a
+    |       |     single line
+ 56 | ERROR | [x] String "report_customsql" does not require double
+    |       |     quotes; use single quotes instead
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/classes/event/query_edited.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 47 | ERROR | [ ] Variable "$this" not allowed in double quoted
+    |       |     string; use concatenation instead
+ 47 | ERROR | [ ] Variable "$this" not allowed in double quoted
+    |       |     string; use concatenation instead
+ 56 | ERROR | [x] Array with multiple values cannot be declared on a
+    |       |     single line
+ 56 | ERROR | [x] String "report_customsql" does not require double
+    |       |     quotes; use single quotes instead
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/classes/task/run_reports.php
+----------------------------------------------------------------------
+FOUND 7 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------
+ 56 | ERROR | [x] String "... Looking for old temp CSV files to
+    |       |     delete." does not require double quotes; use single
+    |       |     quotes instead
+ 59 | ERROR | [ ] Variable "$numdeleted" not allowed in double quoted
+    |       |     string; use concatenation instead
+ 69 | ERROR | [x] The first index in a multi-value array must be on a
+    |       |     new line
+ 70 | ERROR | [x] Array key not aligned correctly; expected 45 spaces
+    |       |     but found 50
+ 70 | ERROR | [x] Closing parenthesis of array declaration must be on
+    |       |     a new line
+ 76 | ERROR | [x] String "... Running report " does not require
+    |       |     double quotes; use single quotes instead
+ 80 | ERROR | [x] String "... REPORT FAILED " does not require double
+    |       |     quotes; use single quotes instead
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 6 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/db/access.php
+----------------------------------------------------------------------
+FOUND 22 ERRORS AFFECTING 19 LINES
+----------------------------------------------------------------------
+ 28 | ERROR | [x] Array key not aligned correctly; expected 17 spaces
+    |       |     but found 4
+ 29 | ERROR | [x] Array key not aligned correctly; expected 32 spaces
+    |       |     but found 8
+ 30 | ERROR | [x] Array key not aligned correctly; expected 32 spaces
+    |       |     but found 8
+ 31 | ERROR | [x] Array key not aligned correctly; expected 32 spaces
+    |       |     but found 8
+ 32 | ERROR | [x] Array key not aligned correctly; expected 32 spaces
+    |       |     but found 8
+ 32 | ERROR | [x] Empty array declaration must have no space between
+    |       |     the parentheses
+ 34 | ERROR | [x] Closing parenthesis not aligned correctly; expected
+    |       |     31 space(s) but found 8
+ 37 | ERROR | [x] Array key not aligned correctly; expected 17 spaces
+    |       |     but found 4
+ 38 | ERROR | [x] Array key not aligned correctly; expected 44 spaces
+    |       |     but found 8
+ 39 | ERROR | [x] Array key not aligned correctly; expected 44 spaces
+    |       |     but found 8
+ 40 | ERROR | [x] Array key not aligned correctly; expected 44 spaces
+    |       |     but found 8
+ 41 | ERROR | [x] Array key not aligned correctly; expected 44 spaces
+    |       |     but found 8
+ 41 | ERROR | [x] Empty array declaration must have no space between
+    |       |     the parentheses
+ 43 | ERROR | [x] Closing parenthesis not aligned correctly; expected
+    |       |     43 space(s) but found 8
+ 46 | ERROR | [x] Array key not aligned correctly; expected 17 spaces
+    |       |     but found 4
+ 47 | ERROR | [x] Array key not aligned correctly; expected 41 spaces
+    |       |     but found 8
+ 48 | ERROR | [x] Array key not aligned correctly; expected 41 spaces
+    |       |     but found 8
+ 49 | ERROR | [x] Array key not aligned correctly; expected 41 spaces
+    |       |     but found 8
+ 50 | ERROR | [x] Array key not aligned correctly; expected 41 spaces
+    |       |     but found 8
+ 50 | ERROR | [x] Empty array declaration must have no space between
+    |       |     the parentheses
+ 52 | ERROR | [x] Closing parenthesis not aligned correctly; expected
+    |       |     40 space(s) but found 4
+ 53 | ERROR | [x] Closing parenthesis not aligned correctly; expected
+    |       |     16 space(s) but found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 22 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/db/messages.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 29 | ERROR | [x] Array key not aligned correctly; expected 21 spaces
+    |       |     but found 4
+ 30 | ERROR | [x] Array key not aligned correctly; expected 23 spaces
+    |       |     but found 8
+ 31 | ERROR | [x] Closing parenthesis not aligned correctly; expected
+    |       |     22 space(s) but found 4
+ 32 | ERROR | [x] Closing parenthesis not aligned correctly; expected
+    |       |     20 space(s) but found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/db/tasks.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 10 LINES
+----------------------------------------------------------------------
+ 29 | ERROR | [x] Array value not aligned correctly; expected 10
+    |       |     spaces but found 4
+ 30 | ERROR | [x] Array key not aligned correctly; expected 5 spaces
+    |       |     but found 8
+ 31 | ERROR | [x] Array key not aligned correctly; expected 5 spaces
+    |       |     but found 8
+ 32 | ERROR | [x] Array key not aligned correctly; expected 5 spaces
+    |       |     but found 8
+ 33 | ERROR | [x] Array key not aligned correctly; expected 5 spaces
+    |       |     but found 8
+ 34 | ERROR | [x] Array key not aligned correctly; expected 5 spaces
+    |       |     but found 8
+ 35 | ERROR | [x] Array key not aligned correctly; expected 5 spaces
+    |       |     but found 8
+ 36 | ERROR | [x] Array key not aligned correctly; expected 5 spaces
+    |       |     but found 8
+ 37 | ERROR | [x] Comma required after last value in array
+    |       |     declaration
+ 38 | ERROR | [x] Closing parenthesis not aligned correctly; expected
+    |       |     9 space(s) but found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 10 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/edit.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 122 | ERROR | [x] Array with multiple values cannot be declared on a
+     |       |     single line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/manage.php
+----------------------------------------------------------------------
+FOUND 14 ERRORS AFFECTING 8 LINES
+----------------------------------------------------------------------
+ 50 | ERROR | [x] The first index in a multi-value array must be on a
+    |       |     new line
+ 51 | ERROR | [x] Array key not aligned correctly; expected 50 spaces
+    |       |     but found 16
+ 51 | ERROR | [x] Each index in a multi-line array must be on a new
+    |       |     line
+ 51 | ERROR | [x] Closing parenthesis of array declaration must be on
+    |       |     a new line
+ 54 | ERROR | [x] The first index in a multi-value array must be on a
+    |       |     new line
+ 55 | ERROR | [x] Array key not aligned correctly; expected 17 spaces
+    |       |     but found 24
+ 55 | ERROR | [x] Closing parenthesis of array declaration must be on
+    |       |     a new line
+ 59 | ERROR | [x] The first index in a multi-value array must be on a
+    |       |     new line
+ 60 | ERROR | [x] Array key not aligned correctly; expected 56 spaces
+    |       |     but found 20
+ 60 | ERROR | [x] Each index in a multi-line array must be on a new
+    |       |     line
+ 60 | ERROR | [x] Closing parenthesis of array declaration must be on
+    |       |     a new line
+ 62 | ERROR | [x] The first index in a multi-value array must be on a
+    |       |     new line
+ 63 | ERROR | [x] Array key not aligned correctly; expected 21 spaces
+    |       |     but found 28
+ 63 | ERROR | [x] Closing parenthesis of array declaration must be on
+    |       |     a new line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 14 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/view.php
+----------------------------------------------------------------------
+FOUND 22 ERRORS AFFECTING 16 LINES
+----------------------------------------------------------------------
+ 128 | ERROR | [x] The first index in a multi-value array must be on
+     |       |     a new line
+ 129 | ERROR | [x] Array key not aligned correctly; expected 17
+     |       |     spaces but found 16
+ 129 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+ 134 | ERROR | [ ] The use of function is_null() is forbidden
+ 175 | ERROR | [x] The first index in a multi-value array must be on
+     |       |     a new line
+ 176 | ERROR | [x] Array with multiple values cannot be declared on a
+     |       |     single line
+ 176 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+ 190 | ERROR | [x] The first index in a multi-value array must be on
+     |       |     a new line
+ 191 | ERROR | [x] Array with multiple values cannot be declared on a
+     |       |     single line
+ 191 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+ 207 | ERROR | [x] The first index in a multi-value array must be on
+     |       |     a new line
+ 208 | ERROR | [x] Array key not aligned correctly; expected 44
+     |       |     spaces but found 32
+ 209 | ERROR | [x] Array key not aligned correctly; expected 44
+     |       |     spaces but found 32
+ 209 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+ 210 | ERROR | [x] The first index in a multi-value array must be on
+     |       |     a new line
+ 211 | ERROR | [x] Array key not aligned correctly; expected 46
+     |       |     spaces but found 34
+ 212 | ERROR | [x] Array key not aligned correctly; expected 46
+     |       |     spaces but found 34
+ 212 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+ 225 | ERROR | [x] The first index in a multi-value array must be on
+     |       |     a new line
+ 226 | ERROR | [x] Array key not aligned correctly; expected 42
+     |       |     spaces but found 30
+ 227 | ERROR | [x] Array key not aligned correctly; expected 42
+     |       |     spaces but found 30
+ 227 | ERROR | [x] Closing parenthesis of array declaration must be
+     |       |     on a new line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 21 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+
+FILE: /home/derek/work/customsql/categoryadd_form.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 70 | ERROR | [x] Array with multiple values cannot be declared on a
+    |       |     single line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
